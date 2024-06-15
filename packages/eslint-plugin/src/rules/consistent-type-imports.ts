@@ -350,7 +350,7 @@ export default createRule<Options, MessageIds>({
               /**
                * checks if import has type assertions
                * ```
-               * import * as type from 'mod' assert { type: 'json' };
+               * import * as type from 'mod' with { type: 'json' };
                * ```
                * https://github.com/typescript-eslint/typescript-eslint/issues/7527
                */

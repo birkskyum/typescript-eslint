@@ -125,7 +125,7 @@ type T = typeof Type.foo;
         },
         {
           code: `
-import * as Type from 'foo' assert { type: 'json' };
+import * as Type from 'foo' with { type: 'json' };
 const a: typeof Type = Type;
           `,
           options: [{ prefer: 'no-type-imports' }],

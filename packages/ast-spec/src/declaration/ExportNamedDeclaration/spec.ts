@@ -11,7 +11,7 @@ interface ExportNamedDeclarationBase extends BaseNode {
   /**
    * The assertions declared for the export.
    * ```
-   * export { foo } from 'mod' assert { type: 'json' };
+   * export { foo } from 'mod' with { type: 'json' };
    * ```
    * This will be an empty array if `source` is `null`
    * @deprecated Replaced with {@link `attributes`}.
@@ -20,7 +20,7 @@ interface ExportNamedDeclarationBase extends BaseNode {
   /**
    * The attributes declared for the export.
    * ```
-   * export { foo } from 'mod' assert { type: 'json' };
+   * export { foo } from 'mod' with { type: 'json' };
    * ```
    * This will be an empty array if `source` is `null`
    */

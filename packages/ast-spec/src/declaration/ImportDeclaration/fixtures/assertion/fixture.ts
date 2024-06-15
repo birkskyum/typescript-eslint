@@ -1,1 +1,1 @@
-import * as a from 'mod' assert { type: 'json' };
+import * as a from 'mod' with { type: 'json' };

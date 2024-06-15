@@ -10,7 +10,7 @@ export interface ExportAllDeclaration extends BaseNode {
   /**
    * The assertions declared for the export.
    * ```
-   * export * from 'mod' assert { type: 'json' };
+   * export * from 'mod' with { type: 'json' };
    * ```
    * @deprecated -- Replaced with {@link `attributes`}.
    */
@@ -18,7 +18,7 @@ export interface ExportAllDeclaration extends BaseNode {
   /**
    * The attributes declared for the export.
    * ```
-   * export * from 'mod' assert { type: 'json' };
+   * export * from 'mod' with { type: 'json' };
    * ```
    */
   attributes: ImportAttribute[];

@@ -1,1 +1,1 @@
-export * from 'mod' assert { type: 'json' };
+export * from 'mod' with { type: 'json' };

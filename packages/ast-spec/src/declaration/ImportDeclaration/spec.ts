@@ -10,7 +10,7 @@ export interface ImportDeclaration extends BaseNode {
   /**
    * The assertions declared for the export.
    * ```
-   * import * from 'mod' assert { type: 'json' };
+   * import * from 'mod' with { type: 'json' };
    * ```
    * @deprecated -- Replaced with {@link `attributes`}.
    */
